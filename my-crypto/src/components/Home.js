@@ -2,11 +2,12 @@ import React from 'react'
 import Info from './Info'
 import Testemonial from './Testemonial'
 import Work from './Work'
+import Form from './Form'
 
 const Home = () => {
   return (
     <>
-      <div className='bg-gradient-to-l from-[#0D324D] to-[#7F5A83] h-full w-100% flex md:flex-row flex-col justify-center'>
+      <div className='bg-gradient-to-l from-[#0D324D] to-[#7F5A83] h-screen w-screen flex md:flex-row flex-col justify-center'>
         <div className=' md:m-14 mt-2  '>
           <img src='https://plus.unsplash.com/premium_photo-1675883162003-dce379a05e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=388&q=80'
             alt='bitcoin' className='md:w-[400px]   md:h-[400px] w-[450px] md:ml-7  rounded-lg' />
@@ -27,7 +28,7 @@ const Home = () => {
       </div>
       <Info/>
       <Testemonial/>
-      <Work/>
+      <Form/>
       </>
   )
 }

@@ -26,7 +26,7 @@ const Exchange = () => {
   if(error)return<Error/>
   return (
     <div className='bg-gradient-to-l from-[#0D324D] to-[#7F5A83]'>
-   <section className='grid grid-cols-2 md:grid-cols-5 gap-3 max-w-7xl  ml-7'>
+   <section className='grid grid-cols-2 md:grid-cols-5 gap-9 max-w-7xl  mx-14'>
   {loading ? <Loading/>:<>
   {
     exchanges.map((i)=>(
