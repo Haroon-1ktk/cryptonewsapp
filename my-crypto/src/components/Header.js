@@ -8,6 +8,7 @@ const Header = () => {
      <Link to='/' className='pl-1 font-bold'>Home</Link>
       <Link to='/exchange'  className='pl-1 font-bold'>exchange</Link>
       <Link to='/coin'  className='pl-1 font-bold'>Coins</Link>
+     
      </div>
     <div>
     <Link to='/'>Haroon</Link>

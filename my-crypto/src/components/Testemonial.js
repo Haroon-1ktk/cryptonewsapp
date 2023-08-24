@@ -39,6 +39,8 @@ const Testemonial = () => {
       };
   return (
     <>
+    <div className=' bg-gradient-to-l from-[#0D324D] to-[#7F5A83] '>  
+        <h1 className='pl-80 font-bold text-2xl ml-32 text-white'>Testemonial</h1>
     <div className=' bg-blue-700'>
     <Carousel responsive={responsive}
       autoPlay={ true }
@@ -50,8 +52,8 @@ const Testemonial = () => {
      
     {
         testemonial.map((i)=>(
-            <div className=' bg-gradient-to-l from-[#0D324D] to-[#7F5A83] '>
-                <h1 className='pl-80 font-bold text-2xl'>Testemonial</h1>
+            <div className=' '>
+                
                 <div className='flex items-center border-2 border-white '>
                     <div className='p-12 '>
                         <img src={i.img} alt={i.name} className=' h-40 rounded-lg w-[470px]'/> 
@@ -66,6 +68,8 @@ const Testemonial = () => {
     }
     </Carousel>
     </div>
+    </div>
+
     </>
   )
 }

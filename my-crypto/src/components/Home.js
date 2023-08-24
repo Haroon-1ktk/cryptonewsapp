@@ -3,6 +3,7 @@ import Info from './Info'
 import Testemonial from './Testemonial'
 import Work from './Work'
 import Form from './Form'
+import Footer from './Footer'
 
 const Home = () => {
   return (
@@ -29,6 +30,7 @@ const Home = () => {
       <Info/>
       <Testemonial/>
       <Form/>
+      <Footer/>
       </>
   )
 }
