@@ -30,13 +30,15 @@ const CoinDetails = ({id}) => {
   },[params.id,currency])
   return (
     <>
+    <div className='bg-[#fffaf2]'>
     <foam className='mt-3 ml-[550px]' onChange={Hello}>
          <input type='radio' value="Pkr" name="currency" />Pkr
          <input type='radio' value="Eur" name="currency"/>Eur 
          <input type='radio' value="Usd" name="currency" />Usd 
   </foam>
   
-   {loading ?<Loading/> :  <>
+   {loading ?<Loading/> : 
+    <>
    <Chart currency={currency} arr={chartArray} days={days}/>
   <div className='flex justify-center flex-col items-center -mt-6'>
   <div className='text-2xl text-bold'>
@@ -66,7 +68,7 @@ const CoinDetails = ({id}) => {
   <p className='pl-4'>{coin.market_data.circulating_supply}</p>
  </div>
  </div>  </>} 
- 
+ </div>
     </>
   )
 }

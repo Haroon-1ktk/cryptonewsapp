@@ -25,7 +25,7 @@ const Coin = () => {
   }, [currency])
   return (
     <>
-    <foam className='mt-3 ml-[550px]' onChange={Hello}>
+    <foam className='mt-3 ml-[550px] text-xl text-white' onChange={Hello} >
          <input type='radio' value="Pkr" name="currency" />Pkr
          <input type='radio' value="Eur" name="currency"/>Eur 
          <input type='radio' value="Usd" name="currency" />Usd 
