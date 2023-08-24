@@ -4,11 +4,11 @@ const Footer = () => {
   return (
    <>
    
-<footer class="bg-gradient-to-l from-[#0D324D] to-[#7F5A83]">
+<footer class="bg-black text-white">
     <div class="mx-auto w-full max-w-screen-xl">
       <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
         <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
+            <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Company</h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
                     <a href="#" class=" hover:underline">About</a>
@@ -25,7 +25,7 @@ const Footer = () => {
             </ul>
         </div>
         <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2>
+            <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Help center</h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
                     <a href="#" class="hover:underline">Discord Server</a>
@@ -42,7 +42,7 @@ const Footer = () => {
             </ul>
         </div>
         <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+            <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Legal</h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
                     <a href="#" class="hover:underline">Privacy Policy</a>
@@ -56,7 +56,7 @@ const Footer = () => {
             </ul>
         </div>
         <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h2>
+            <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Download</h2>
             <ul class="text-gray-700  font-medium">
                 <li class="mb-4">
                     <a href="#" class="hover:underline">iOS</a>
@@ -73,7 +73,7 @@ const Footer = () => {
             </ul>
         </div>
     </div>
-    <div class="px-4 py-6 bg-gradient-to-l from-[#0D324D] to-[#7F5A83] md:flex md:items-center md:justify-between">
+    <div class="px-4 py-6 bg-black md:flex md:items-center md:justify-between">
         <span class="text-sm text-white  sm:text-center">© 2023 <a href="">Haroon™</a>. All Rights Reserved.
         </span>
         <div class="flex mt-4 space-x-5 sm:justify-center md:mt-0">
