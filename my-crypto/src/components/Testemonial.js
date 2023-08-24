@@ -39,9 +39,9 @@ const Testemonial = () => {
       };
   return (
     <>
-    <div className=' bg-gradient-to-l from-[#0D324D] to-[#7F5A83] '>  
-        <h1 className='pl-80 font-bold text-2xl ml-32 text-white'>Testemonial</h1>
-    <div className=' bg-blue-700'>
+    <div className=' mt-4'>  
+        <h1 className='pl-80 font-bold text-2xl ml-[200px] text-white'>Testemonial</h1>
+    <div className=' '>
     <Carousel responsive={responsive}
       autoPlay={ true }
       autoPlaySpeed={1000}
